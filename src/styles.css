@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f9f9;
+}
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-size: 20px;
+}
+.btn {
+  position: absolute;
+  background-color: #000000;
+  border-color: #000000;
+  font-size: 13px;
+}
+.form-control {
+  font-size: 13px;
+}
+#current-location-button {
+  position: absolute;
+  background-color: #464646;
+  border-color: #464646;
+}
+.search-bar {
+  position: relative;
+  top: -30px;
+}
+.search-bar .col-6 {
+  position: relative;
+  left: 33%;
+}
+.search-bar .col-3 {
+  position: relative;
+  left: 18%;
+}
+
+.search-bar .col-3 #current-location-button {
+  position: relative;
+  left: 5%;
+}
+
+.container {
+  margin: auto;
+  border: 0px;
+}
+.card-container {
+  background-color: #ffbd00;
+  padding: 50px 90px 80px;
+  margin: 10px 10%;
+  display: block;
+}
+.card {
+  border-style: none;
+  background-color: #f4f9f9;
+  margin-top: 20px;
+}
+.currentTemperature {
+  font-size: 30px;
+  font-weight: bold;
+}
+#weather-description {
+  font-size: 13px;
+}
+#wind-speed {
+  font-size: 13px;
+}
+#humidity {
+  font-size: 13px;
+}
+
+.max {
+  font-weight: bold;
+}
+.fas {
+  font-size: 30px;
+}
+.currentIcon .fas {
+  font-size: 45px;
+}
